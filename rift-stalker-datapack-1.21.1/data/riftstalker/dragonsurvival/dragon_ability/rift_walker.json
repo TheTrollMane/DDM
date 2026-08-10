@@ -1,0 +1,47 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:channeled",
+    "initial_mana_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "cast_time": {
+      "base": 60,
+      "per_level_above_first": 0
+    },
+    "cooldown": {
+      "base": 300,
+      "per_level_above_first": 0
+    },
+    "can_move_while_casting": false
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:run_function",
+              "function": "riftstalker:rift_walker"
+            }
+          ]
+        }
+      },
+      "trigger_point": "channel_completion",
+      "trigger_rate": {
+        "base": 1,
+        "per_level_above_first": 0
+      }
+    }
+  ],
+  "can_be_manually_disabled": true,
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "riftstalker:rift_stalker",
+        "from_level": 0
+      }
+    ]
+  }
+}

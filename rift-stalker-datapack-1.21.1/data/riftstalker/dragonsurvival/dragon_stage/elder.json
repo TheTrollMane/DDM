@@ -1,0 +1,42 @@
+{
+  "growth_range": {
+    "min": 70.0001,
+    "max": 100
+  },
+  "ticks_until_grown": 80,
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "amount": {
+        "precise_base": 115,
+        "precise_amount": 0
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": {
+        "precise_base": 9,
+        "precise_amount": 0
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "amount": {
+        "precise_base": 2,
+        "precise_amount": 0
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": {
+        "precise_base": 0.13,
+        "precise_amount": 0
+      },
+      "operation": "add_value"
+    }
+  ],
+  "growth_items": []
+}

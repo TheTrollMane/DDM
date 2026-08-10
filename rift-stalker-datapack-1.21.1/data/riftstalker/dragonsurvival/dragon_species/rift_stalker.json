@@ -1,0 +1,36 @@
+{
+  "starting_growth": 1,
+  "unlockable_behavior": {
+    "visibility": "always_visible"
+  },
+  "custom_stage_progression": [
+    "riftstalker:hatchling",
+    "riftstalker:juvenile",
+    "riftstalker:adult",
+    "riftstalker:elder",
+    "riftstalker:ancient"
+  ],
+  "abilities": [
+    "riftstalker:dimensional_phase",
+    "riftstalker:rift_walker",
+    "riftstalker:vertex_deconstruction",
+    "riftstalker:wireframe_scan",
+    "riftstalker:reality_stutter",
+    "riftstalker:void_walker"
+  ],
+  "misc_resources": {
+    "altar_banner": "riftstalker:textures/gui/altar_banner.png",
+    "ability_bar": "riftstalker:textures/gui/casting_bar.png",
+    "growth_crystal": {
+      "empty": "riftstalker:textures/gui/growth_empty.png",
+      "full": "riftstalker:textures/gui/growth_full.png"
+    },
+    "food_tooltip": {
+      "nutrition_icon": "\u25cf",
+      "saturation_icon": "\u25c6"
+    },
+    "primary_color": "#B100FF",
+    "secondary_color": "#00D8FF",
+    "claw_texture_slot": "sword"
+  }
+}
