@@ -1,0 +1,24 @@
+{
+  "values": [
+    "#c:foods",
+    "#c:foods/raw_fish",
+    "#c:foods/cooked_fish",
+    "#c:foods/raw_meat",
+    "#c:foods/cooked_meat",
+    "minecraft:bread",
+    "minecraft:carrot",
+    "minecraft:potato",
+    "minecraft:baked_potato",
+    "minecraft:beetroot",
+    "minecraft:apple",
+    "minecraft:golden_apple",
+    "minecraft:melon_slice",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:chorus_fruit",
+    "minecraft:cookie",
+    "minecraft:cake",
+    "minecraft:pumpkin_pie",
+    "#minecraft:coals"
+  ]
+}

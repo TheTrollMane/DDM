@@ -1,0 +1,22 @@
+{
+  "values": {
+    "stormfrost:stormfrost": {
+      "neoforge:conditions": [
+        {
+          "type": "dragonsurvival:registered",
+          "registry": "dragonsurvival:dragon_species",
+          "value": "stormfrost:stormfrost"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "items": "#stormfrost:stormfrost_food",
+          "properties": {
+            "nutrition": 4,
+            "saturation": 4.0
+          }
+        }
+      ]
+    }
+  }
+}

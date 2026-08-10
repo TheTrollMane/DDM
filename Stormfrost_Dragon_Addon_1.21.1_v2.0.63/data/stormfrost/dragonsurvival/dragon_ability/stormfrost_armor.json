@@ -1,0 +1,66 @@
+{
+  "actions": [
+    {
+      "target_selection": {
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "stormfrost:stormfrost_armor",
+                    "is_hidden": true,
+                    "should_remove_automatically": true
+                  },
+                  "modifiers": [
+                    {
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 1.0,
+                        "per_level_above_first": 1.0
+                      },
+                      "attribute": "minecraft:generic.armor",
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "targeting_mode": "allies_and_self"
+        },
+        "target_type": "dragonsurvival:self"
+      }
+    }
+  ],
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "stormfrost:textures/ability/armor.png"
+      }
+    ]
+  },
+  "upgrade": {
+    "growth_requirement": {
+      "type": "minecraft:lookup",
+      "fallback": {
+        "type": "minecraft:linear",
+        "base": 15.0,
+        "per_level_above_first": 15.0
+      },
+      "values": [
+        0.0,
+        25.0,
+        40.0,
+        60.0
+      ]
+    },
+    "maximum_level": 4,
+    "upgrade_type": "dragonsurvival:dragon_growth"
+  }
+}
